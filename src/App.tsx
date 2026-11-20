@@ -425,6 +425,7 @@ export default function App() {
           <aside className="portrait-card">
             <div className="portrait-image-wrap">
               <img className="portrait-image" src={AVATAR} alt="Tiffany portrait used as the visual guide for Tiffany Speaks" />
+              <span className="portrait-blink-overlay" aria-hidden="true" />
               <span className="portrait-badge"><span className="badge-dot" />Tiffany’s guide</span>
             </div>
             <div className="portrait-caption">
